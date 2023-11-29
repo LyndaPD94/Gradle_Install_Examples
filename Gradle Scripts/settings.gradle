@@ -17,7 +17,7 @@ dependencyResolutionManagement {
 
                 username = "mapbox" //leave the user name as mapbox
 
-                password ='sk.eyJ1IjoibHluZaBcDefGhITAzNDZqZDJhcGgzZ3dnlvNTcifQ.Q6rtjK-QFrWBxUhw_r19Gw'
+                password = 'password'
             }
         }
         google()
