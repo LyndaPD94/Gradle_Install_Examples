@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+
+                username = "mapbox" //leave the user name as mapbox
+
+                password ='sk.eyJ1IjoibHluZaBcDefGhITAzNDZqZDJhcGgzZ3dnlvNTcifQ.Q6rtjK-QFrWBxUhw_r19Gw'
+            }
+        }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Basic CRUD App"
+include ':app'
